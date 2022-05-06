@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    /* color:white; */
+    /* font-size:2rem; */
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+header{
+    background: #1F2937;
+    color: #E5E7EB;
+    margin-bottom: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: justify;
+    margin-bottom: 150px;
+}
+nav ul{
+    display: flex;
+    flex: left;
+    gap:20px;
+    position: absolute;
+    right: 10%;
+    font-size: 18px;
+    margin: 20px;
+}
+nav ul li{
+    list-style: none;
+}
+nav h1{
+    font-size: 24px;
+    color: #F9FAFB;
+    font-weight: bolder;
+    padding: 20px;
+    position: absolute;
+    left: 5%;
+    
+}
+.main{
+    margin: 50px;
+    width: 100%;
+    display: flex;
+    flex: center;
+    height: 50vh;
+    gap: 40px;
+
+}
+.main .right{
+    width: 40%;
+    height: 250px;
+    /* outline: 3px solid white; */
+    padding: 30px;
+}
+.main .left{
+    width: 40%;
+    height: 250px;
+    /* outline: 3px solid white; */
+    padding: 30px;
+}
+.main .right h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAFB;
+    line-height: 3rem;
+    padding-bottom: 1rem;
+}
+.main .right p{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: .5rem;
+}
+.main .left img{
+    width: auto;
+    height: 100%;
+   
+}
+button{
+    background: #3882F6;
+    padding:7px 25px;
+    color: #F9FAFB;
+    border-radius: 5px;
+    width: auto;
+    border: none;
+    font-size: 18px;
+}
+.cards{
+    width: 100%;
+    height: auto;
+}
+.cards h3{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.card-section{
+    height: 40vh;
+    background: #F9FAFB;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.item {
+    width: 200px;
+    align-items: center;
+    text-align: center;
+}
+.item img{
+    border: 1px #3882F6 solid;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+.inspiration {
+    height: 40vh;
+    background: #E5E7EB;
+    padding:150px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.inspiration p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.inspiration p small{
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+
+}
+.call-for-action{
+    display: flex;
+    height: 30vh;
+    background: #F9FAFB;
+    /* flex: center; */
+}
+.call{
+    background: #3882F6;
+    width: 90%;
+    margin: 50px 200px;
+    padding: 20px 80px;
+    border-radius: 7px;
+    color: #F9FAFB;
+}
+.call p{
+    color: #E5E7EB;
+}
+.button{
+    position: absolute;
+    right: 20%;
+    margin-top: 80px;
+    outline: #F9FAFB;
+    z-index: 1;
+    border: 2px #F9FAFB solid;
+    border-radius: 8px;
+}
+
+footer{
+    background: #1F2937;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
